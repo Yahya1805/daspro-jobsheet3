@@ -22,7 +22,7 @@ public class Siakad09 {
     nilaiTugas = sc.nextDouble();
     System.out.print("NILAI UJIAN: ");
     nilaiUjian = sc.nextDouble();
-    nilaiAkhir = (nilaiKuis + nilaiTugas + m.nilaiUjian) / 3;
+    nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
     System.out.println("NAMA: " + nama + " NIM: " + nim);
     System.out.println("KELAS: " + Kelas + " ABSEN: " + Absen);
     System.out.println("NILAI AKHIR: " + nilaiAkhir);
